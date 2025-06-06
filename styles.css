@@ -1,0 +1,203 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo span {
+  color: #61dafb;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.profile-box {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #222;
+  background-image: url('Assets/ProfilPortofolio3.webp');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #61dafb;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero h3 {
+  font-weight: 400;
+  color: #999;
+}
+
+.highlight {
+  color: #61dafb;
+}
+
+.tech-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.section-title span {
+  color: #61dafb;
+}
+
+/* Section Text */
+.section-text {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Experience */
+#experience .experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.experience-item ul {
+  padding-left: 1.5rem; /* atau 20px, bisa kamu sesuaikan */
+  margin-top: 0.5rem;
+}
+
+.experience-item p {
+  margin-bottom: 0.5rem;
+}
+
+#experience h3 {
+  color: #61dafb;
+  font-size: 1.1rem;
+}
+
+/* Formation */
+.skills-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #ccc;
+}
+
+/* Contact */
+.contact-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #333;
+}
+
+
+#skills {
+  margin: 2rem;
+}
+
+#skills h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.skills-list li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.75rem;
+}
